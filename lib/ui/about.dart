@@ -37,7 +37,7 @@ class _AboutState extends State<About> {
                   SizedBox(
                     height: 10,
                   ),
-                  Text('V 1.0.0', style: TextStyle(color: Colors.white)),
+                  Text('V 1.0.1', style: TextStyle(color: Colors.white)),
                   SizedBox(
                     height: 40,
                   ),

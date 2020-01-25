@@ -47,7 +47,7 @@ class _DrawerHomeState extends State<DrawerHome> {
                     leading: Icon(Icons.share, color: Colors.white),
                     title: Text('Beri tahu teman', style: TextStyle(color: Colors.white),),
                     onTap: () {
-                      Share.share('Bergabung bersama saya di BTS Music 2020');
+                      Share.share('Bergabung bersama saya di BTS Music 2020. Download aplikasinya sekarang.\nhttps://play.google.com/store/apps/details?id=id.deris.topmusik');
                     },
                   ),
                   Divider(color: Colors.grey.withOpacity(0.2)),
@@ -77,7 +77,7 @@ class _DrawerHomeState extends State<DrawerHome> {
         );
   }
   _launchRate() async {
-  const url = 'https://play.google.com/store/apps/details?id=id.deris.btsmusic';
+  const url = 'https://play.google.com/store/apps/details?id=id.deris.topmusik';
   if (await canLaunch(url)) {
     await launch(url);
   } else {

@@ -443,7 +443,7 @@ class _PlayerState extends State<Player> {
     }
     lyric += ".....";
 
-    String join = "Bergabung bersama saya di BTS Populer!\nhttp://wwww.play.google.com";
+    String join = "Bergabung bersama saya di BTS Populer!\nhttps://play.google.com/store/apps/details?id=id.deris.topmusik";
 
     Share.share('$title\n$artist\n$lyric\n\n$join');
   }
